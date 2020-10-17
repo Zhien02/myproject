@@ -15,10 +15,6 @@ class ElectricCar(Vehicle):
 
 
 vios = Vehicle('4', 'petrol', 5, 180)
-print(vios.number_of_wheels)
-print(vios.type_of_tank)
-print(vios.seating_capacity)
-print(vios.maximum_velocity)
 
 blueSG = ElectricCar('4', 5, 150)
 blueSG.drive()
